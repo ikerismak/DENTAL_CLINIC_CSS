@@ -1,12 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body {
     font-family: Arial, sans-serif;
-    background-color:#1a8ac8;
+    background-color:#ffffff;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    flex-direction: column;
+}
+header{
+
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 8z0px;
+    height: 80px;
+    padding: 20px;
+}
+.nav-bar{
+
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #1a8ac8;
+    width: 100%;
+}
+
+.nav-bar ul{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-bar ul li a{
+
+   color: white;
+   font-size: 22px;
+   text-decoration: none;
+
+}
+
+.nav-bar ul li a:hover{
+
+    color: rgb(180, 180, 180);
+    font-size: 24px;
+
+ }
+
+/*
+Menú de navegacion y lista
+display (vista en horizontal),
+ancho
+relleno
+alineacion del texto
+bordes redondeados
+tamaño de fuente
+*/
+
+nav li{
+    display:inline-block;
+    width:150px;
+    padding:6px 10px;
+    text-align:center;
+    border-radius: 15px;
+    font-size:18px;
 }
 
 .container {
@@ -15,6 +87,7 @@ body {
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     width: 300px;
+    margin-top: 30px;
 }
 
 .form-group {
@@ -47,4 +120,8 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #029eff;
+}
+.prog-val{
+
+    width: 250px;
 }
