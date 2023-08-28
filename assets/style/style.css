@@ -3,13 +3,48 @@ Logo de la empresa
 margen superior
 altura y ancho
 */
+*{
+    margin: 0;
+    padding: 0;
+}
 
 .logo{
-    margin-top: 30px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 8z0px;
+    height: 80px;
+    padding: 20px;
 }
+.nav-bar{
+
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-bar ul{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-bar ul li a{
+
+   color: white;
+   font-size: 22px;
+
+}
+
+.nav-bar ul li a:hover{
+
+    color: rgb(180, 180, 180);
+    font-size: 24px;
+
+ }
 
 /*
 Menú de navegacion y lista
@@ -23,7 +58,7 @@ tamaño de fuente
 
 nav li{
     display:inline-block;
-    width:10%;
+    width:150px;
     padding:6px 10px;
     text-align:center;
     border-radius: 15px;
@@ -55,9 +90,8 @@ tamaño de texto
 
 .divPrincipal{
 
-    height: 600px;
+    height: 630px;
     padding-left: 50px;
-    padding-top: 20px;
     padding-bottom: 10px;
     margin: -10px;
     background-color: rgb(255, 255, 255);
@@ -123,13 +157,10 @@ margen exterior derecho e izquierdo
 */
 
 .imgPrincipal{
-    height: 500px;
-    width: 500px;
-    border-radius: 25px;
+    height: 100%;
+    width: 600px;
     float: right;
-    margin-top: 50px;
     margin-bottom: 50px;
-    margin-right: 120px;
     margin-left: 100px;
 }
 
@@ -140,4 +171,24 @@ margen exterior derecho e izquierdo
     float: left;
     margin-right: 50px;
     margin-left: 50px;
+}
+
+footer {
+    background-color: #1a8ac8;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.logo-container{
+
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.prog-val{
+
+    width: 250px;
 }
