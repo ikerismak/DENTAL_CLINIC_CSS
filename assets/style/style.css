@@ -6,8 +6,9 @@ altura y ancho
 
 .logo{
     margin-top: 30px;
-    height: 100px;
-    width: 170px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
 /*
@@ -45,20 +46,21 @@ Secciones:
 La seccion principal y secundaria tienen el mismo formato, su diferencia es el color
 
 Principal y Secundario
-Altura, 
-relleno izquierdo, abajo y arriba, 
-margen, 
-color de fondo rosa y celeste, 
+Altura,
+relleno izquierdo, abajo y arriba,
+margen,
+color de fondo rosa y celeste,
 tamaño de texto
 */
 
 .divPrincipal{
-    height: 500px;
+
+    height: 600px;
     padding-left: 50px;
     padding-top: 20px;
     padding-bottom: 10px;
     margin: -10px;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     font-size: 22px;
     color: #3A3636;
 }
@@ -69,7 +71,7 @@ tamaño de texto
     padding-top: 20px;
     padding-bottom: 10px;
     margin: -10px;
-    background-color: #D5F7FF;
+    background-color:  #ffffff;;
     font-size: 22px;
     color: #3A3636;
 }
@@ -99,13 +101,14 @@ tamalño de fuente
 */
 
 button{
-    background-color: #1DD2FF;
+    background-color: #8fe9ff;
     border: none;
     padding: 18px 30px 18px 30px;
     border-radius: 25px;
     font-weight: bold;
     margin-top: 15px;
     font-size: 18px;
+    width: 200px;
 }
 
 /*
@@ -120,12 +123,14 @@ margen exterior derecho e izquierdo
 */
 
 .imgPrincipal{
-    height: 400px;
-    width: 350px;
+    height: 500px;
+    width: 500px;
     border-radius: 25px;
     float: right;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 120px;
+    margin-left: 100px;
 }
 
 .imgSecundaria{
