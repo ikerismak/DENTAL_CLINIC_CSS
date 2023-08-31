@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-fluid{
+
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    padding: 5px 50px 5px 50px;
+    height: 70px;
+}
